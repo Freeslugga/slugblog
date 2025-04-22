@@ -108,3 +108,7 @@ pagination.pagerSize = 5
   # uncomment the line below (and correct the local path if necessary).
   # --
   replacements = "github.com/mirus-ua/hugo-theme-re-terminal -> themes/re-terminal"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
